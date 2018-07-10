@@ -1,0 +1,30 @@
+//general
+n_per_show 3e1
+n_turns 4.19e4
+
+//ring
+R 610.1754 
+GMTSQ 552.25 
+Gamma 293 
+
+//RF
+nRF 2
+h 360 7200
+V 8e6 24e6
+Vf 8e6 24e6
+it 0 1e4
+ft 1e4 2e4 
+tn_btwn_i_f 1e4 1e4
+phis 180 180
+
+//Modulation
+Vepsilon 0.2
+Mum 2.0
+
+//Bunch
+Npar 1e6
+A 0.8 
+xmin -9e-10
+xmax 9e-10
+ymin -1e6
+ymax 1e6
